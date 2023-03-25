@@ -8,7 +8,7 @@ driver.maximize_window()
 driver.get("https://www.google.com/")
 sleep(5)
 
-# while True:
+# while True:   
 #     continue
 
 input = driver.find_element(By.NAME,"q")
