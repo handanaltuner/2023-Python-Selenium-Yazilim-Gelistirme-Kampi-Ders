@@ -9,7 +9,7 @@ from selenium webdriver.common.action_chains import ActionChains
 
 
 class Test_Kodlamaio:
-    def test_invalid_login(self):
+    def test_invalid_login(self):   
         self.driver = webdriver.Chrome(ChromeDriverManager().install())
         self.driver.maximize_window()
         self.driver.get("https://www.saucedemo.com/")
